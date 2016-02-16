@@ -30,7 +30,12 @@ class BasicFunction{
 		System.out.println("Square of 4 is : "+square);
 
 		int cube = cal.cube();
-		System.out.println("Cubee of 4 is : "+cube);
+		System.out.println("Cube of 4 is : "+cube);
 
+		int gcdNumber = cal.gcd(45, 25);
+		System.out.println(gcdNumber+" gcdNumber should be equal to 5");
+
+		int lcmNumber = cal.lcm(36, 16);
+		System.out.println(lcmNumber+" lcmNumber should be equal yo 144");
 	};
 };
